@@ -3,8 +3,8 @@ layout: default
 title: Gabriel
 description: ...
 lang: it
-ref: /gabriel.html
-permalink: /gabriel.html
+ref: /gabriel.md
+permalink: /gabriel.md
 order: 1
 ---
 
