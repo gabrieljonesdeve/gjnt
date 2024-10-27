@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ page.lang }}">
+<head>
+  {% include meta.html %}
+  {% include styles.html %}
+  {%- if jekyll.environment == 'production' -%}
+  {%- include analytics/google-analytics.html -%}
+  {%- endif -%}
+</head>
+<body>
+  {%- include header/header.html -%}
+  <h2>
+    Ciao
+  </h2>
+  {%- include cookiebar.html -%}
+  {%- include scripts.html -%}
+</body>
+</html>
