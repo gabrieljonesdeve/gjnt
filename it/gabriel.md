@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Gabriel
-description:
+title: Trasparenza
 lang: it
-ref: gabriel
-permalink: /it/gabriel
+ref: trasparenza
+permalink: /it/trasparenza
+order: 9
 ---
 
-Questo è un esempio di pagina per una "cookie policy".
+Pagina "chi siamo"
