@@ -23,22 +23,3 @@
         </div>
     </header>
 </div>
-
-<script>
-    // Funzione per ottenere l'IP e cambiare il messaggio
-    fetch('https://api.ipify.org?format=json')
-        .then(response => response.json())
-        .then(data => {
-            const userIp = data.ip;
-            const link = document.getElementById('personal-area-link');
-            const defaultMessage = "Accedi all'area personale";
-            const welcomeMessage = "Benvenuto Gabriel Jones";
-
-            if (userIp === '79.31.14.96') {
-                link.querySelector('span.d-none').textContent = welcomeMessage;
-            } else {
-                link.querySelector('span.d-none').textContent = defaultMessage;
-            }
-        })
-        .catch(error => console.error('Errore nel recupero dell\'IP:', error));
-</script>
