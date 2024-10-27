@@ -1,19 +1,10 @@
 ---
 layout: page
 title: Gabriel
-description: ...
+description:
 lang: it
-ref: /gabriel.md
-permalink: /gabriel.md
-order: 1
+ref: gabriel
+permalink: /it/gabriel
 ---
 
-{% include hero.html %}
-
-<main class="container my-4" markdown="1">
-
-{% include posts.html %}
-
-{% include home-gabby-content.html %}
-
-</main>
+Questo è un esempio di pagina per una "cookie policy".
