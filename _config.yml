@@ -56,5 +56,5 @@ exclude:
   - CNAME
 
 navigation:
-  - title: Chi Siamo
-    url: /chi-siamo/
+  - title: Aree tematiche
+    url: /aree-tematiche/
