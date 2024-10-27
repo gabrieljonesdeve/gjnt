@@ -54,3 +54,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+navigation:
+  - title: Chi Siamo
+    url: /chi-siamo/
